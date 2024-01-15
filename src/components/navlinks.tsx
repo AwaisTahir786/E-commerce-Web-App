@@ -6,13 +6,13 @@ function NavLinks() {
     <>
       <ul className="flex flex-row gap-x-10">
         <li className="text-xl">
-          <Link href="/female">Female</Link>
+          <Link href="/category/female">Female</Link>
         </li>
         <li className="text-xl">
-          <Link href="/male">Male</Link>
+          <Link href="/category/male">Male</Link>
         </li>
         <li className="text-xl">
-          <Link href="/kids">Kids</Link>
+          <Link href="/category/kids">Kids</Link>
         </li>
         <li className="text-xl">
           <Link href="/allProducts">All Products</Link>

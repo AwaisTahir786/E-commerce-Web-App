@@ -4,7 +4,7 @@ import ProductCard from '@/components/productCard';
 
 function ProductsPage() {
   return (
-    <section className="flex flex-row justify-between mt-16 py-10">
+    <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-20 p-5 mt-20">
       {ProductsData.map((item) => (
         <ProductCard
           key={item.id}
@@ -12,9 +12,10 @@ function ProductsPage() {
           price={item.price}
           category={item.category}
           image={item.image}
+          id={item.id}
         />
       ))}
-    </section>
+    </div>
   )
 }
 

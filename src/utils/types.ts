@@ -5,6 +5,7 @@ export type Products={
     title:string,
     price:string,
     category: string;
+    gender:string;
     image: string | StaticImageData
 
 }
