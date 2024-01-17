@@ -11,7 +11,7 @@ function Quantity() {
 
   function subtract() {
     {
-      num <= 0 ? 0 : setnum(num - 1);
+      num <= 1 ? 1 : setnum(num - 1);
     }
   }
 
@@ -19,7 +19,7 @@ function Quantity() {
     <div className="flex items-center gap-x-2">
       <button
         onClick={() => subtract()}
-        className="w-6 h-6 rounded-full border center"
+        className="w-8 h-8 rounded-full border center text-xl"
       >
         -
       </button>
@@ -28,7 +28,7 @@ function Quantity() {
 
       <button
         onClick={() => add()}
-        className="w-6 h-6 rounded-full border center"
+        className="w-8 h-8 rounded-full border center text-xl"
       >
         +
       </button>
