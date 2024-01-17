@@ -108,7 +108,7 @@ export default function Page({ params }: { params: { id: number } }) {
           {/* Right Side */}
           <div className="flex lg:flex-row flex-col gap-x-36">
           <h2 className=" scroll-m-20 pb-2 text-xl font-semibold text-gray-500 tracking-tight transition-colors first:mt-0">
-              Product Details
+              Product Care
             </h2>
             
             <ul className="list-disc [&>li]:mt-2 ">
