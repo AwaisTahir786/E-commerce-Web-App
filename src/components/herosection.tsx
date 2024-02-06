@@ -39,7 +39,7 @@ function Herosection() {
 
       {/*right side  */}
       <div className="flex-1">
-        <div className="bg-[#ffece3] rounded-full flex justify-center items-center ">
+        <div className="bg-[#ffece3] rounded-full flex justify-center items-center  ">
         <Image src={"/images/header.png"} alt="Main Image" width={600} height={600}/>
 
         </div>
